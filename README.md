@@ -35,6 +35,9 @@ To install the required packages, run:
 
 The program requires a YAML file with a list of HTTP endpoints to monitor. Here is an example configuration file named `config.yaml`:
 
+Here is the configuration for the synthetic monitor request:
+
+```yaml
 - name: fetch index page
   url: https://fetch.com/
   method: GET
