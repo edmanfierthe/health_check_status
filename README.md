@@ -37,12 +37,12 @@ The program requires a YAML file with a list of HTTP endpoints to monitor. Here 
 
 Here is the configuration for the synthetic monitor request:
 
-```yaml
+```
 - name: fetch index page
   url: https://fetch.com/
   method: GET
   headers:
-    user-agent: fetch-synthetic-monitor
+    user-agent: fetch-synthetic-monitor```
 
 3. Running the Program
 
